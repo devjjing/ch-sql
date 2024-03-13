@@ -41,7 +41,7 @@ und `customer_id` angibst. Achte dabei da drauf das es die 'order_id' noch nicht
 1. {order_id: 6, item: 'Laptop', amount: 1, customer_id: 1}
 2. {order_id: 7, item: 'Monitor', amount: 2, customer_id: 2}
 
-INSERT INTO Orders (order_id, item, amount)
+INSERT INTO Orders (order_id, item, amount, customer_id)
 VALUES
 (6, 'Laptop', 1, 1),
 (7, 'Monitor', 2, 2);
